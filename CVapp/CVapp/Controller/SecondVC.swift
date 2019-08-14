@@ -15,23 +15,25 @@ class SecondVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
-    }
+// Do any additional setup after loading the view.}
     
-    @IBAction func CVButton(_ sender: Any) {
-    }
-    
-    @IBAction func LMButton(_ sender: Any) {
-    }
-    
-    @IBAction func GithubButton(_ sender: Any) {
-    }
-
-    @IBAction func LinkedinButton(_ sender: Any) {
-    }
     
 
 
+    }
 
+    @IBAction func CVBtnPressed(_ sender: Any) {
+    }
+    
+    @IBAction func LMBtnPressed(_ sender: Any) {
+    }
+    
+    @IBAction func GithubBtnPressed(_ sender: Any) {
+    }
+    
+    @IBAction func LinkedinBtnPressed(_ sender: Any) {
+    }
+    
+    
+    
 }

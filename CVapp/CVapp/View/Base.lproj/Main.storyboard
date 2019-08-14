@@ -60,8 +60,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="CV"/>
                                 <connections>
-                                    <action selector="CVbutton:" destination="Sxj-UM-pFg" eventType="touchUpInside" id="lRp-tf-Hba"/>
-                                    <segue destination="GFr-W6-ddS" kind="show" id="opq-jI-4N3"/>
+                                    <action selector="CVBtnPressed:" destination="Sxj-UM-pFg" eventType="touchUpInside" id="JW2-MR-S3L"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gNo-FM-F6f">
@@ -69,7 +68,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="LM"/>
                                 <connections>
-                                    <action selector="LMbutton:" destination="Sxj-UM-pFg" eventType="touchUpInside" id="DBP-SM-cYy"/>
+                                    <action selector="LMBtnPressed:" destination="Sxj-UM-pFg" eventType="touchUpInside" id="6wZ-yP-SnU"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="brP-D0-xTj">
@@ -77,7 +76,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="github"/>
                                 <connections>
-                                    <action selector="GithubButton:" destination="Sxj-UM-pFg" eventType="touchUpInside" id="aBQ-iP-49R"/>
+                                    <action selector="GithubBtnPressed:" destination="Sxj-UM-pFg" eventType="touchUpInside" id="jaz-5P-CM1"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6N1-s1-uWM">
@@ -85,7 +84,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="linkedin"/>
                                 <connections>
-                                    <action selector="LinkedinButton:" destination="Sxj-UM-pFg" eventType="touchUpInside" id="Pvk-5x-4LW"/>
+                                    <action selector="LinkedinBtnPressed:" destination="Sxj-UM-pFg" eventType="touchUpInside" id="fzZ-f6-k4E"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -99,21 +98,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9IF-La-6Kv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="964" y="101.19940029985008"/>
-        </scene>
-        <!--CVVC-->
-        <scene sceneID="8Ak-3f-h5r">
-            <objects>
-                <viewController id="GFr-W6-ddS" customClass="CVVC" customModule="CVapp" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="BUC-6s-Lhx">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="9hf-Xn-WBv"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="tDb-I6-vMc" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1937" y="-611"/>
         </scene>
     </scenes>
 </document>
