@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class WelcomeVC: UIViewController {
     @IBOutlet weak var backround1: UIImageView!
     
     
@@ -20,10 +20,6 @@ class ViewController: UIViewController {
 
     @IBAction func startButton(_ sender: Any) {
     }
-    @IBAction func CVnextbutton(_ sender: Any) {
-    }
-    @IBAction func unwindFromCv2VC(unwindSegue: UIStoryboardSegue) {
     
-}
 
 }
